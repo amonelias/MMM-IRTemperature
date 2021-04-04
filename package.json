@@ -1,0 +1,12 @@
+{
+    "name": "MMM-IRTemperature",
+    "version": "1.0.0",
+    "description": "A MagicMirror² module to read and display the data of the GY906/MLX90614 Sensor.",
+    "main": "MMM-IRTemperature.js",
+    "author": "amonelias",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amonelias/MMM-IRTemperature"
+      }
+  }
