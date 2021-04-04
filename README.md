@@ -10,6 +10,7 @@ A MagicMirror² module to read and display the data of the GY906/MLX90614 Sensor
 ## Installation
 1. Navigate to the `/modules` folder of you MagicMirror²
 2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-IRTemperatures.git`
+3. Install dependencies using the following command: `pip3 install smbus2 PyMLX90614`
 
 ## Config
 
