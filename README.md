@@ -1,13 +1,17 @@
 # MMM-IRTemperature
 A MagicMirror² module to read and display the data of the GY906/MLX90614 Sensor. 
 
-# Dependencies
+## Dependencies
 
 - [smbus2](https://pypi.org/project/smbus2/)
 
 - [mlx90614](https://pypi.org/project/PyMLX90614/)
 
-# Config
+## Installation
+1. Navigate to the `/modules` folder of you MagicMirror²
+2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-IRTemperatures.git`
+
+## Config
 
 <table>
   <thead>
@@ -31,3 +35,19 @@ A MagicMirror² module to read and display the data of the GY906/MLX90614 Sensor
     </tr>
   </tbody>
 </table>
+
+To use this module, add it to the modules array in the `config/config.js` file:
+```javascript
+  {
+    module: 'MMM-IRTemperatures',
+    position: 'top_right', // any possible region
+    config: {
+      refreshTime: 10000,
+      i2cbus: 1,
+      fontSize: "medium",
+    },
+  },
+```
+
+## Update
+Navigate to the folder of the module in the `/modules` folder and get the latest version using the command `git pull`.
